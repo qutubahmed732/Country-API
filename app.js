@@ -33,7 +33,7 @@ submit.addEventListener('click', () => {
     fetch(`https://restcountries.com/v3.1/name/${name}`).then((data) => {
     return data.json();
 }).then((res) => {
-    console.log(res[0].borders);
+    console.log(res[0]);
     let image = document.querySelector('img');
     image.src = res[0].flags.png;
     document.querySelector('.card-title').innerHTML = res[0].altSpellings[2];
