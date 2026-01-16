@@ -9,8 +9,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 70vw;
-    height: 70vh;
+    width: 70vw;    
     border: 2px solid black;
 }
 
+.all-borders {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px 10px 10px 0px;
+}
